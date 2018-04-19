@@ -1,0 +1,46 @@
+body{
+	font-family: 'open sans';
+}
+
+.header {
+	margin: 0 auto;
+	padding: 1.875em 0 1.875em 0;
+}
+
+.logo_header {
+	padding: 5px;
+	width: 21.875em;
+}
+
+.formulaire{
+	margin: 0 auto;
+	border: 1px solid #CCCCCC;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #EDEDED;
+}
+
+form{
+	margin-bottom: 0;
+}
+
+.content{
+	margin: 0 auto 1.875em;
+}
+
+.btn-padding{
+	padding: 0 .5rem;
+}
+
+.tab {
+	width: 100%;
+}
+
+.float-right{
+	float: right;
+}
+
+.button-affich{
+	margin-top: 2.188em;
+	padding: 0;
+}
