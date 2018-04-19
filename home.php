@@ -1,5 +1,6 @@
 <?php
 include 'insert.php';
+//include 'select.php';
 
 $input = $_POST['nombres'];
 $choix = $_POST['choix'];
