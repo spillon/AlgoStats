@@ -29,7 +29,7 @@
 			<div class="form-group">
 				<input type="text" name="nombres" class="form-control" value="1;2;3;4;5;6">
 			</div>
-			<button type="submit" class="btn btn-primary">Go !</button>
+			<button type="submit" name="nombres" class="btn btn-primary">Go !</button>
 		</form>
 	</div>
 </div>
