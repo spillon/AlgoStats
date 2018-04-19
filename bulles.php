@@ -1,25 +1,23 @@
 <?php
-function insert($list)
+
+function bulles($list)
 {
-	$i = 0;
 	$iter = 0;
 	$timestamp_debut = microtime(true);
-	//tri par insertion
-	echo "Tri par insertion"."<br>";
-	for ($i; $i < count($list); $i++)
+	echo "Tri a bulles";
+	for ($i = 0; $i < count($list); $i++)
 	{
-		//enregistrement de la case à trier
-		$tmp = $list[$i];
-		//recherche de la bonne position et décalage
-		$j = $i - 1;
-		while($j >= 0 && $tmp < $list[$j])
+		for ($j = 0; $j < (count($list) - $i -1); $j++)
 		{
-			$list[$j + 1] = $list[$j];
-			$j--;
+			if ($list[$j] > $list[$j + 1])
+			{
+				$tmp = $list[$j + 1];
+				$list[$j + 1] = $list[$j];
+				$list[$j] = $tmp;
+				$iter++;
+			}
 			$iter++;
 		}
-		//insertion de la valeur
-		$list[$j + 1] = $tmp;
 		$iter++;
 	}
 	$timestamp_fin = microtime(true);

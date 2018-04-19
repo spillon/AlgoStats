@@ -1,6 +1,7 @@
 <?php
 include 'insert.php';
 include 'select.php';
+include 'bulles.php';
 
 $input = $_POST['nombres'];
 $choix = $_POST['choix'];
@@ -12,8 +13,13 @@ if ($choix == 1)
 	insert($list);
 }
 
-if ($choix == 2)
+else if ($choix == 2)
 {
 	select($list);
+}
+
+else if ($choix == 3)
+{
+	bulles($list);
 }
 ?>

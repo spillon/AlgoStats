@@ -11,9 +11,11 @@ function echange(&$list, $i, $j)
 }
 	function select(&$list)
 		{
+			$iter = 0;
 			$timestamp_debut = microtime(true);
-		  $taille = count($list);
-		  for ($i = 0; $i < $taille - 1; ++$i) 
+			$taille = count($list);
+			echo "Tri par selection"."<br>";
+			for ($i = 0; $i < $taille - 1; ++$i) 
 		  {
 		    $i_min = $i;
 		    for ($j = $i+1; $j < $taille; ++$j)
@@ -30,7 +32,7 @@ function echange(&$list, $i, $j)
 			}
 		$timestamp_fin = microtime(true);
 		$difference_ms = $timestamp_fin - $timestamp_debut;
-		echo "<br>"."Voici le nombre d'intération :".$iter;
+		echo "<br>"."Voici le nombre d'interation :".$iter;
 		echo "<br>"."Temps d'execution : ". $difference_ms . " secondes.";
 		}
 
