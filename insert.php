@@ -2,6 +2,8 @@
 function insert($list)
 {
 	$i = 0;
+	$iter = 0;
+	$timestamp_debut = microtime(true);
 	//tri par insertion
 	for ($i; $i < count($list); $i++)
 	{
@@ -13,10 +15,22 @@ function insert($list)
 		{
 			$list[$j + 1] = $list[$j];
 			$j--;
+			$iter++;
 		}
 		//insertion de la valeur
 		$list[$j + 1] = $tmp;
+		$iter++;
 	}
-	print_r($list);
+	$timestamp_fin = microtime(true);
+	$difference_ms = $timestamp_fin - $timestamp_debut;
+	$i = 0;
+	echo "<brb>"."Voici votre liste triée: ";
+	while ($i < count($list))
+	{
+		echo $list[$i]." ";
+		$i++;
+	}
+	echo "<br>"."Nombre d'itération: ".$iter;
+	echo "<br>"."Temps d'execution : ". $difference_ms . " secondes.";
 }
 ?>
