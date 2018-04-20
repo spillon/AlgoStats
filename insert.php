@@ -5,7 +5,7 @@ function insert($list)
 	$iter = 0;
 	$timestamp_debut = microtime(true);
 	//tri par insertion
-	echo "Tri par insertion"."<br>";
+	echo "Tri par insertion";
 	for ($i; $i < count($list); $i++)
 	{
 		//enregistrement de la case à trier

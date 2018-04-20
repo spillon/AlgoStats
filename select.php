@@ -14,7 +14,7 @@ function echange(&$list, $i, $j)
 			$iter = 0;
 			$timestamp_debut = microtime(true);
 			$taille = count($list);
-			echo "Tri par selection"."<br>";
+			echo "Tri par selection";
 			for ($i = 0; $i < $taille - 1; ++$i) 
 		  {
 		    $i_min = $i;
