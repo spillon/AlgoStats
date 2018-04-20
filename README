@@ -1,0 +1,6 @@
+Voici le README sur l'algo tri:
+
+Tri par insertion:
+
+On parcourt le tableau du début a la fin en comparant l'élément a insérer en partant du principe que la liste dans lequel on va insérer notre élément est déjà trié. L'élément a insérer correspond a notre valeur à l'index i et cette valeur sera stocker dans une variable temporaire pour pouvoir la déplacer dans notre tableau. si l'élément a insérer dans notre tableau est plus petit que les précédent déjà trier on déplacera donc tous les éléments du tableau et on inséra notre élément des lors ou la valeur est inferieur a celle précédente ou si on arrive a la fin du tableau dans le cas ou la valeur insérer est supérieur a tous les éléments déjà triées alors l'élément ne bouge pas dans le tableau.
+
