@@ -2,6 +2,7 @@
 include 'insert.php';
 include 'select.php';
 include 'bulles.php';
+include 'shell.php';
 
 $input = $_POST['nombres'];
 $choix = $_POST['choix'];
@@ -21,5 +22,10 @@ else if ($choix == 2)
 else if ($choix == 3)
 {
 	bulles($list);
+}
+
+else if ($choix == 4)
+{
+	shell($list);
 }
 ?>
