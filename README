@@ -17,9 +17,9 @@ I) Tri par selection
 
    2) Qu'est ce que le tri par séléction :
 
-	Il permet de trier des chiffres dans un tableau en selectionnant un chiffre dans le tableau, et il intervertis
-	ce chiffre avec le prochain chiffre inférieur à ce chiffre et ainsi de suite jusqu'a avoir les chiffres dans
-	l'ordre croissant. 
+      Il permet de trier des chiffres dans un tableau en selectionnant un chif	      fre dans le tableau, et il intervertis
+      ce chiffre avec le prochain chiffre inférieur à ce chiffre et ainsi de s	      uite jusqu'a avoir les chiffres dans
+      l'ordre croissant. 
 
 ----------------------------------------------------------------------------------------------------------------------
 
