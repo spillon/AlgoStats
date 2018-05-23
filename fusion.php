@@ -1,5 +1,5 @@
 <?php
-function fusion(&$list, $iter) 
+function fusion(&$list, &$iter) 
 {
 	 if( count($list) <= 1)
 	 {	
@@ -17,7 +17,6 @@ function fusion(&$list, $iter)
 				$list2[] = $list[$i];
 		}
 		$iter++;
-		print $iter;
 		fusion($list1, $iter);
 		fusion($list2, $iter);
 		fusionner($list1, $list2, $list);
