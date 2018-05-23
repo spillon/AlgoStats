@@ -1,12 +1,12 @@
 <?php
-function tri_rapide(&$list, $debut, $fin, &$iter) 
+function rapide(&$list, $debut, $fin, &$iter) 
 {
     if ($debut < $fin) 
     {
     	$pivot = partitionnement($list, $debut, $fin, $iter);
     	$iter ++;
-        tri_rapide($list, $debut, $pivot - 1, $iter);
-        tri_rapide($list, $pivot +1, $fin, $iter);
+        rapide($list, $debut, $pivot - 1, $iter);
+        rapide($list, $pivot +1, $fin, $iter);
     }
     return $iter;
 }
