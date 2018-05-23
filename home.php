@@ -29,4 +29,8 @@ else if ($choix == 4)
 {
 	shell($list);
 }
+
+{
+	peigne($list);
+}
 ?>
