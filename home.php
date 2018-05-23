@@ -29,7 +29,7 @@ else if ($choix == 4)
 {
 	shell($list);
 }
-
+else if ($choix == 5)
 {
 	peigne($list);
 }
