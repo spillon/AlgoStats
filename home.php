@@ -3,6 +3,7 @@ include 'insert.php';
 include 'select.php';
 include 'bulles.php';
 include 'shell.php';
+include 'peigne.php';
 
 $input = $_POST['nombres'];
 $choix = $_POST['choix'];
