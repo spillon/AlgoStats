@@ -1,5 +1,5 @@
 <?php
-function fusion ( &$list, $iter) 
+function fusion(&$list, $iter) 
 {
 	 if( count($list) <= 1)
 	 {	

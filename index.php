@@ -27,7 +27,7 @@
 				<br><br>
 			</label>
 			<div class="form-group">
-				<input type="text" name="nombres" class="form-control" value="1;2;3;4;5;6">
+				<input type="text" name="nombres" class="form-control" value="2;5;6;1;2;4;">
 			</div>
 			<button type="submit" class="btn btn-primary">Go !</button>
 		</form>
